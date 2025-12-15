@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: skyblue;
+}
+.outer>.inner{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+        transition: all 1s ease-out 1s;
+
+}
+
+.outer>.inner:hover{
+    transform: translateY(-100px);
+    border-radius: 50%;
+}

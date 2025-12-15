@@ -1,0 +1,58 @@
+/* if we not delcare by defaualt there is value below so i declare it */
+* {
+    padding: 0;
+    margin: 0;
+    
+    box-sizing: border-box;
+
+}
+
+.card1 {
+    background-color:blue;
+   height: 200px;   
+   width: 300px;
+   padding: 10px 20px 5px 7px;
+   border-color: black;
+   border-width: 10px;
+   border-style: solid;
+   border-radius: 10px;
+   margin: 25px;
+
+
+}
+
+.card2 {
+    background-color:aqua;
+    height: 200px;
+    width: 300px;
+    margin: 30px;
+   
+
+}
+
+.card1>p {
+    /* padding: 100px; */
+}
+.card3{
+    height: 200px;
+    width: 300px;
+    border-top: 10px solid red;
+    border-bottom: 20px dashed black;
+    border-left: 10px dotted gray;
+    border-right: 10px ;
+    border-radius: 10px;
+
+    background-color: aquamarine;
+    margin-left: 20px;
+     margin-bottom: 20px;
+     padding: 20px;
+
+
+}
+.card4{
+    height: 200px;
+    width: 300px;
+    border: 2px solid blanchedalmond;
+    background-color: aqua;
+    margin-left: 20px;
+}

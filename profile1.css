@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    background-color: red;
+    width: 400px;
+    /* top and bottom are 20px  */
+    /* left and right are auto */
+    margin: 20px auto;
+}
+
+.card>img{
+    height: 100px;
+    margin-bottom:10px ;
+
+}
+.card>h2{
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}

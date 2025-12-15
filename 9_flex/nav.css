@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+nav>ul{
+    display: flex;
+    /* justify-content: space-around; it not work i have small size column and row so we shoud use gap*/
+    gap: 30px;
+}
+
+nav>ul>li{
+    list-style: none;
+    text-transform: uppercase;
+    /* below used to text stule */
+    font-weight: bold;
+
+}
+nav>ul>li:hover{
+    color: aquamarine;
+    cursor: pointer;
+    transform: translateY(-5px);
+
+}
+/*  */
