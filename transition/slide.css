@@ -5,24 +5,30 @@
 }
 
 .outer{
-    display: flex;
+    /* display: flex;
    justify-content: space-around;
     align-items: center;
     height: 100vh;
     background-color: skyblue;
-}
-.outer>.inner{
-    height: 300px;
-    width: 300px;
-    border-radius: 10px;
-    overflow: hidden;
+    gap: 20px; */
+    height: 100vh;
     display: flex;
-    justify-content: center;
-        transition: all 1s ease-out 1s;
-
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+    gap: 20px;
 }
 
-.outer>.inner:hover{
-    transform: translateY(-100px);
-    border-radius: 50%;
+.outer>img{
+    height: 250px;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 1px 3px 4px black;
+    transition: all 0.2s ease-in;
+}
+
+.outer>img:hover{
+    transform: scale(1.04);
+    /* above code increase the side of box */
+    box-shadow: 3px 4px 6px black;
 }
