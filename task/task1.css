@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.outer>.left{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.outer>.left>h1{
+    font-size: 50px;
+    color: rgb(0, 98, 255);
+}
+.outer>.left>p{
+    
+    font-size: 24px;
+    color: #333;
+    width: 60%;
+    }
+.outer>.right{
+    height: 100%;
+    width: 50%;
+    display: flex   ;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+   
+
+}
+.right>form{
+   width: 350px;
+   margin: 20px auto;
+   padding: 20px;
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+.right>form input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.right>form button{
+    width: 100%;
+    padding: 12px;
+    background-color: #667eea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.right>form>p{
+    text-align: center;
+    margin: 15px;
+    color: #333;
+    
+
+}
+form>p>a{
+    text-decoration: none;
+}
+.right>form>p,b{
+    font-weight: bold;
+}
+.right>form>.create{
+    margin-top: 30px;
+    background-color: green;
+    
+}
+
