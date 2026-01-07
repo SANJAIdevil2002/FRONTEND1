@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid task 1</title>
+
+    <style>
+         *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+         }
+
+         .outer{
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 100px  calc(100vh - 200px)  100px;
+         }
+
+         nav{
+            /* border: 2px solid black; */
+            grid-column: span 2;
+            background: linear-gradient(skyblue,white);
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+         }
+
+         nav > ul {
+            display: flex;
+            gap:20px;
+         }
+
+         nav > ul > li{
+            font-size: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1.3px;
+            list-style: none;
+            cursor: pointer;
+            color: black;
+            text-shadow: 1px 2px 2px white;
+           
+         }
+
+         .left > img{
+            height: 80%;
+         }
+
+         
+         .left{
+             border-right: 1px solid #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+         .right{
+            /* border: 2px solid black; */
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap:20px;
+
+            padding-left: 20px;
+         }
+
+         .right > h1{
+            letter-spacing: 2px;
+         }
+
+         .right > p{
+            font-size: 19px;
+            line-height: 1.6em;
+         }
+
+         .right > button{
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            background-color: skyblue;
+            border-radius: 10px;
+            cursor: pointer;
+            color:white;
+            text-shadow: 1px 2px 2px black;
+            box-shadow: 0px 2px 2px black;
+            transition: all 1s;
+         }
+
+         .right > button:hover{
+            transform: scale(1.05);
+         }
+
+         
+         footer{
+            /* border: 2px solid black; */
+            grid-column: span 2;
+            display: flex;
+            justify-content: center;
+            align-items: center ;
+            background: linear-gradient(white,skyblue);
+         }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="outer">
+         <nav> 
+            <h2> navLogo</h2>
+            <ul>
+                <li>home</li>
+                <li>about</li>
+                <li>contact</li>
+            </ul>
+         </nav>
+         <div class="left"> 
+             <img src="https://static.vecteezy.com/system/resources/previews/003/689/228/non_2x/online-registration-or-sign-up-login-for-account-on-smartphone-app-user-interface-with-secure-password-mobile-application-for-ui-web-banner-access-cartoon-people-illustration-vector.jpg" alt="">
+         </div>
+         <div class="right"> 
+            <h1>Welcome To My Grid Application</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi sint repellendus expedita officia corporis tenetur, incidunt voluptas consequatur? Corporis, eligendi.</p>
+            <button>get info</button>
+         </div>
+         <footer> 
+              <h2> grid task 2025 &copy; </h2>
+              </footer>
+    </div>
+</body>
+</html>

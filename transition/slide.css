@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    /* display: flex;
+   justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: skyblue;
+    gap: 20px; */
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+    gap: 20px;
+}
+
+.outer>img{
+    height: 250px;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 1px 3px 4px black;
+    transition: all 0.2s ease-in;
+}
+
+.outer>img:hover{
+    transform: scale(1.04);
+    /* above code increase the side of box */
+    box-shadow: 3px 4px 6px black;
+}

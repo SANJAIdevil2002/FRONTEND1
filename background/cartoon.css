@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* background attachment to fixed for image */
+    background-attachment: fixed;
+    
+}
+div>h2{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+    letter-spacing: 7px;
+    
+}
+
+#a1{
+    background-image: url(https://wallpapercat.com/w/full/6/9/f/319983-3840x2160-desktop-4k-iron-man-background.jpg);
+
+}
+#a2{
+    background-image: url(https://wallpapercave.com/dwp2x/wp3597823.jpg);
+}
+#a3{
+    background-image: url(https://wallpapercave.com/wp/wp4825434.jpg);
+    /* background-repeat: no-repeat; */
+}
+#a4{
+    background-image: url(https://wallpapercave.com/wp/wp12606745.jpg);
+}

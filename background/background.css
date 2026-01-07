@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background-color:rgb(43, 196, 196);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/* to give more than one color on background */
+/* below direction top to bottom */
+    /* background:linear-gradient(red,yellow) ; */
+/* below direction left to right */
+background: linear-gradient(to left,red,blueviolet);
+}
+/* .outer>.inner{
+    height: 60%;
+    width: 70%;
+    border-radius: 30px;
+background property
+    background-color: aliceblue;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPZiq_PnDwGCx2doozDPWDhHEts3A8ioJz2w&s);
+   below are the image of to align
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+} 

@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer {
+    height: 100vh;
+    background-color: orangered;
+    /* below to align the div2 in the center page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer h2:hover {
+    transform: translateY(-2px);
+    /* box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4); */
+}
+
+.outer>.inner {
+
+    text-align: justify;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(219, 66, 11);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px black;
+    /* overflow hidden the extra content */
+    /* overflow: hidden; */
+    /* below overflow have scroll option within the div itself */
+    /* overflow: scroll; */
+
+    overflow: auto;
+}
+
+/* below  use to hidden the scroll bar in web page but it scroll with help mouse action*/
+::-webkit-scrollbar {
+    display: none;
+}
+
+.inner>h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    /* below hidden the content  and give the place to other to occupy the their place but visiblity not*/
+    /* display: none; */
+
+    /* below it not give their place to other element */
+    /* visibility: hidden; */
+}
+
+.inner>p {
+    font-size: 15px;
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+img{
+    height: 300px;
+    width: 200px;
+    /* object-fit: fill; */
+    /* zoom property below */
+    /* object-fit: cover; */
+    /* below property calculate automatically the height with  respect to width*/
+    /* object-fit: contain; */
+/* according to height and width it fill the image */
+    /* object-fit: fill; */
+   /* automatic zoom or contain */
+    /* object-fit: none; */
+    /* object-fit: scale-down; */
+    object-fit: cover;
+/* below work as horizontal */
+    /* object-position: -50%; */
+
+    /* to work in vertical */
+    object-position: 50% -10px;
+    background-color: aqua;
+}

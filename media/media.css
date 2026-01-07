@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+
+
+.p1{
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+}
+
+.p2{
+    background-color: aqua;
+        margin-bottom: 20px;
+
+}
+
+.p3{
+    background-color: blue;
+        border-bottom: 20px;
+
+}
+/* first create website mobile and custom width for desk */
+/* screen mention all screen */
+/* or print */
+/* speech screen recordes */
+/* not mentioned means all is default */
+@media all and (min-width:801px) {
+    .container p{
+        /* multi column flow */
+        width: 30%;
+        float: left;
+        padding: 10px;
+    }
+     .p3{
+        background-color: aqua;
+    }
+
+    
+}
+
+@media print {
+    body{
+        background-color: none;
+    }
+    
+}
+/* .container p{
+        width: 100%;
+    } */
